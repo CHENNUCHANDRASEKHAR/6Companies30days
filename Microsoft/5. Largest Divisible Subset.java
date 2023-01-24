@@ -40,7 +40,7 @@ class Solution {
         List<Integer> temp=new ArrayList<>();
         temp.add(arr[lastIndex]);
         while(hash[lastIndex] != lastIndex)
-        { 
+        {  
             lastIndex = hash[lastIndex];
             temp.add(arr[lastIndex]);
         }
